@@ -16,7 +16,7 @@ def generate_launch_description():
     modelFileReativePath='model/robot.xacro'
 
     #if wanna create a custom empty world uncomment this(will need to creare empty_world.world file)
-    worldFileReativePath='worlds/custom_world.world'
+    worldFileReativePath='worlds/tugbot_depot.sdf'
 
     #abs path to model
     pathModelFile=os.path.join(get_package_share_directory(namePackage),modelFileReativePath)
